@@ -1,0 +1,46 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  padding: 10px 0;
+  border-bottom: solid 2px #ccc;
+  margin-bottom: 10px;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 10px;
+}
+
+.menu ul li {
+}
+
+.menu ul li a {
+  color: #333;
+  /* font-size: 12px; */
+}
+
+.menu ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+}
+
+.error {
+  color: red;
+}
